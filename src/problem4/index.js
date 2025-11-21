@@ -24,3 +24,16 @@ function sum_to_n_recursive(n) {
     return n + sum_to_n_recursive(n - 1); //55
 }
 
+//best choice we have for this is not having to loop n times and get the right answer by calculation
+//Big-O notation
+//O(n)
+function sum_to_n_math(n) {
+    return (n * (n + 1)) / 2;
+}
+
+//Here are what I means by calculation is faster 
+SELECT SUM(amount) FROM transactions; // this way we don't need to fetch all row from transaction table and calculates all that again
+
+//other approaches are instead of fetching all rows from db, try to cut it down by Limit (pagination)
+//and having indexes on tables' primary keys
+
