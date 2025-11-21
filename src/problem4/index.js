@@ -1,3 +1,5 @@
+//will loop 1000 times if n is 1000
+//not very efficient
 function sum_to_n_iteration(n) {
     let sum = 0;
     for (let i = 1; i <= n; i++) {
