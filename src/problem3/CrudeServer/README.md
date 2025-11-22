@@ -45,13 +45,13 @@ Postman json is also provided in the repo.
 Clone the project
 
 ```bash
-  git clone https://github.com/Zay4r/CrudeServer.git
+  git clone https://github.com/Zay4r/code-challenge.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd CrudeServer
+  cd src/problem3/CrudeServer
 ```
 
 Install dependencies
